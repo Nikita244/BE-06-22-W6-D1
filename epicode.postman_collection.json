@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "30209069-bf62-47e5-8803-87e4c153991f",
+		"name": "epicode",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24316289"
+	},
+	"item": [
+		{
+			"name": "https://jsonplaceholder.typicode.com/posts Copy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "una richiesta POST",
+							"type": "text"
+						},
+						{
+							"key": "body",
+							"value": "un articolo sulla costruzione di richieste post by luigi verdi",
+							"type": "text"
+						},
+						{
+							"key": "userId",
+							"value": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://jsonplaceholder.typicode.com/posts Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "title",
+							"value": "una richiesta POST",
+							"type": "text"
+						},
+						{
+							"key": "body",
+							"value": "un articolo sulla costruzione di richieste post by luigi verdi",
+							"type": "text"
+						},
+						{
+							"key": "userId",
+							"value": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/userId/2",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"userId",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "userId",
+							"value": "1000",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "5000",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "post",
+							"type": "text"
+						},
+						{
+							"key": "body",
+							"value": "sono una richiesta post",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "userId",
+							"value": "1000",
+							"type": "text"
+						},
+						{
+							"key": "id",
+							"value": "5000",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "post",
+							"type": "text"
+						},
+						{
+							"key": "body",
+							"value": "sono una richiesta post",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://jsonplaceholder.typicode.com/posts/1?userId=1&id=1&title=put&body=sono una richiesta put",
+					"protocol": "https",
+					"host": [
+						"jsonplaceholder",
+						"typicode",
+						"com"
+					],
+					"path": [
+						"posts",
+						"1"
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "1"
+						},
+						{
+							"key": "id",
+							"value": "1"
+						},
+						{
+							"key": "title",
+							"value": "put"
+						},
+						{
+							"key": "body",
+							"value": "sono una richiesta put"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
